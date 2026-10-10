@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Dégradé cyan/bleu électrique pour les strates supérieures -->
+    <linearGradient id="slice-top" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
+    <!-- Dégradé indigo/violet pour la base (stabilité et contraste) -->
+    <linearGradient id="slice-base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#4F46E5"/>
+    </linearGradient>
+
+    <!-- Ombre subtile pour détacher le volume si affiché sur fond clair -->
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0284C7" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g id="logo-mark" filter="url(#subtle-shadow)">
+    <!-- 1. Strate supérieure (Face supérieure du cube / précision buse) -->
+    <path d="M64 16 L108 40 L64 64 L20 40 Z" fill="url(#slice-top)" />
+
+    <!-- 2. Strate médiane (Couche de tranchage / Slicing intermédiaire) -->
+    <path d="M20 50 L64 74 L108 50 L108 62 L64 86 L20 62 Z" fill="url(#slice-top)" opacity="0.92" />
+
+    <!-- 3. Strate inférieure (Plateau de build / Base d'estimation) -->
+    <path d="M20 72 L64 96 L108 72 L108 84 L64 108 L20 84 Z" fill="url(#slice-base)" />
+
+    <!-- Réticule focal / Point d'extrusion de précision -->
+    <circle cx="64" cy="40" r="4.5" fill="#FFFFFF" />
+  </g>
+</svg>
