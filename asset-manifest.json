@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/3DPrinEstimation/static/css/main.6e783248.css",
-    "main.js": "/3DPrinEstimation/static/js/main.447a6c21.js",
+    "main.css": "/3DPrinEstimation/static/css/main.7f1564f4.css",
+    "main.js": "/3DPrinEstimation/static/js/main.83a0eb03.js",
     "static/js/453.8ab44547.chunk.js": "/3DPrinEstimation/static/js/453.8ab44547.chunk.js",
     "index.html": "/3DPrinEstimation/index.html",
-    "main.6e783248.css.map": "/3DPrinEstimation/static/css/main.6e783248.css.map",
-    "main.447a6c21.js.map": "/3DPrinEstimation/static/js/main.447a6c21.js.map",
+    "main.7f1564f4.css.map": "/3DPrinEstimation/static/css/main.7f1564f4.css.map",
+    "main.83a0eb03.js.map": "/3DPrinEstimation/static/js/main.83a0eb03.js.map",
     "453.8ab44547.chunk.js.map": "/3DPrinEstimation/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e783248.css",
-    "static/js/main.447a6c21.js"
+    "static/css/main.7f1564f4.css",
+    "static/js/main.83a0eb03.js"
   ]
 }
